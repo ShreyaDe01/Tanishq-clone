@@ -1,0 +1,139 @@
+.nav-item.dropdown{
+    color: rgb(24, 24, 24);
+    text-align: left;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: none;
+    height: auto;
+    text-transform: uppercase;
+    padding: 18px 0;
+    font-size: 12px;
+    margin: 0px 0px;
+    font: 900 12px 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width:100%;    
+    z-index: 1;
+    margin-left:0%;
+}
+/* Show the dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div.carousel-inner{
+    height:100%;
+    width:100%;
+}
+
+div.sticky-top{
+    cursor: pointer;
+}
+
+div.carousel-indicators{
+    justify-content: left;
+    left:-7rem;
+    opacity: 0.5;
+}
+div.row.row-cols-lg-6{
+    --bs-gutter-x: 0rem;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#categories.row.col{
+    padding: 0%;
+    
+}
+#categories{
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+
+img.img-responsive{
+    display: block;
+    max-width: 100%;
+}
+
+
+h2{
+    font-family:'Playfair Display',sans-serif;
+    font-weight: 400; 
+    text-align:center; 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    text-transform:capitalize;
+}
+button.btn.btn-link{
+    font-family: 'Raleway';
+    font-variant-numeric: lining-nums;
+    padding: 10px 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 150px;
+    border: 0px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    background: #b0a16e;
+    text-decoration: none;
+}
+
+#topSellers{
+    margin: 50px auto 20px auto;
+}
+
+h3.card-title{
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.5em;
+    color: #000;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h4.card-text{
+    margin-bottom: 0;
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    color: #000;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    text-align: center;
+}
+
+div.card{
+    cursor: pointer;
+    border: 0px;
+    transition: box-shadow 0.5s;
+}
+div.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#aboveFooter{
+    background: #f2f0e8;
+    padding-top: 33px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+}
+

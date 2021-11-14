@@ -1,0 +1,132 @@
+#jewelleryBanner{
+    width: 85.88rem;
+    margin-left:-0.8rem;
+}
+
+#BlueBand{
+    background-color: #87ceeb;
+}
+
+#BlueBand p{
+    font-family: 'Playfair Display',serif;
+    text-align:center; 
+    padding-top:1rem;
+    
+}
+
+#pageHeading,#lastline{
+    font-family:'Playfair Display',sans-serif;
+    text-align:left; 
+    font-size:1.2rem; 
+    font-weight:700;
+    margin-left:5rem; 
+    margin-top:4rem;
+}
+
+#filters{
+    padding-left: 0rem;
+}
+
+#FiltersList{
+    padding-left:0rem;
+}
+
+#filters h5{
+    font-family:'Playfair Display',sans-serif;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    text-align: left;
+}
+
+.filter-heading{
+    font-family: 'Roboto',sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    color: #181818;
+    font-size: 14px; 
+    font-weight:900;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.dropdown-btn{
+    background-color: transparent;
+    border: 0px transparent;
+    float: right;
+}
+
+.dropdown-container{
+    display:none;
+}
+
+.dropdown-container input{
+    padding: 0px;
+    margin-left: -2rem;
+}
+
+.dropdown-container label{
+    position: relative;
+    padding-left: 2rem;
+    line-height: 2rem;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+    font: 12px 'Roboto',sans-serif;
+    letter-spacing: 2px;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.dropdown-container li{
+    padding-top: 15px;
+}
+
+#products{
+    display:block;
+    margin-top:4rem;
+}
+
+
+p.card-text{
+    margin-bottom: 0;
+    font-family: 'Roboto',sans-serif; 
+    letter-spacing: 1px; 
+    line-height: 1.5em; 
+    color: #000;
+    font-size: 16px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    font-weight: 600;
+    text-align: center;
+}
+
+h5.card-title{
+    font-family: 'Roboto',sans-serif; 
+    line-height: 1.5em;  
+    color: #000; 
+    font-size: 14px;  
+    white-space: nowrap; 
+    overflow: hidden;  
+    text-overflow: ellipsis; 
+    text-transform:capitalize; 
+    letter-spacing: 1px; 
+    text-align: center;
+}
+
+a.btn.btn-dark{
+    width:100%;
+    font: 550 14px 'Raleway',sans-serif; 
+    letter-spacing: 1px; 
+    text-transform:uppercase; 
+    height:3rem; 
+    padding-top:1rem;
+    border-radius: 0%;
+    margin: 0rem;
+}
+

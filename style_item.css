@@ -1,0 +1,77 @@
+#showPath{
+    font: 500 10px 'Raleway',sans-serif;
+    letter-spacing: 1.5px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    background-color: transparent;
+    text-align: left;
+    color: black;
+    margin-left:5rem ;
+}
+
+#buyButton, #appoint{
+    font: 550 14px 'Raleway',sans-serif; 
+    letter-spacing: 2px; 
+    text-transform:uppercase; 
+    height:3rem; 
+    padding-top:1rem;
+    border-radius: 0%;
+    width:max-content;
+    width:25%;
+    margin-left: 0.5rem;
+}
+
+#appoint{
+    border: 1px solid rgb(102, 81, 81);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width:38.5%;
+    margin-left: 1rem;
+}
+
+#buyingGuides{
+    border-top: 1px solid #c0b48b;
+    color: #fff;
+    background-color: #b0a16e;
+    height: 347px;
+    padding-top: 20px;
+}
+
+#buyingGuides h1{
+    margin-left:5rem; 
+    margin-top:20px; 
+    margin-bottom:20px; 
+    font-family:'Playfair Display', serif;
+}
+
+.img-card-title{
+    margin-bottom: 0;
+    font-family: 'Playfair Display',sans-serif;
+    word-wrap: break-word;  
+    letter-spacing: 2px;
+    line-height: 1.5em; 
+    color: grey;
+    font-size: 18px; 
+    text-transform:uppercase;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 700;
+}
+.img-card-price{
+    margin-top: 10px;
+    margin-bottom: 0; 
+    text-align:center;
+    font-family: 'Playfair Display',sans-serif;
+    word-wrap: break-word;
+    line-height: 1.5em;
+    color: grey;
+    font-size: 18px;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+
